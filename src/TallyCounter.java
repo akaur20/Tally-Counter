@@ -27,4 +27,24 @@ public class TallyCounter
 		//count+=1;
 	}
 	
+	public void unclick()
+	{
+		count--;
+	}
+	
+	public void reset()
+	{
+		count = 0; 
+	}
+	
+	public int getCount()
+	{
+		return count;
+	}
+	public String toString()
+	{	
+		return "count" + count;
+	}
 }
+
+	
